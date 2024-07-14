@@ -15,8 +15,6 @@ body {
     background-image: linear-gradient(to bottom left, #175D69, #310E44);
 }
 
-/* // <uniquifier>: Use a unique and descriptive class name
-// <weight>: Use a value from 300 to 800 */
 
 .open-sans-medium {
     font-weight: 500;
@@ -172,11 +170,7 @@ body {
 
     }
 
-    .nav-bar-content {
-        display: none;
-    }
-
-    .nav-bar-content-right {
+    .nav-bar {
         display: none;
     }
 
@@ -186,7 +180,7 @@ body {
 
     .dropdown-icon {
         display: block;
-        margin: 38px 0px 0px 100px;
+        margin: 38px 30px 0px 100px;
         padding: 0 0 0 0;
     }
 
@@ -211,8 +205,17 @@ body {
     .header-image img {
         width: 400px;
         height: 350px;
+
     }
 
+    .header-image {
+        padding: 0;
+    }
+
+    .dropdown-icon:hover .nav-bar {
+        display: block;
+
+    }
 
 
 
