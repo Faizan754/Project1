@@ -157,6 +157,10 @@ body {
     display: none;
 }
 
+.dropdown-icon:hover .nav-bar {
+    display: block;
+}
+
 
 
 
@@ -187,39 +191,6 @@ body {
 
 }
 
-/* 
-#header {
-    display: block;
-    flex-direction: column;
-
-}
-
-.header-content-paragraph {
-    width: 250px;
-}
-
-.header-content-button {
-    margin: 0 0 10px 0;
-}
-
-.header-content {
-    padding: 0 0 0 10px;
-}
-
-.header-image img {
-    width: 400px;
-    height: 350px;
-
-}
-
-.header-image {
-    padding: 0;
-}
-
-.dropdown-icon:hover .nav-bar {
-    display: block;
-
-} */
 @media screen and (max-width: 920px) {
     .heading {
         padding: 150px 0px 0px 40px;
