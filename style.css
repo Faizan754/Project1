@@ -95,7 +95,7 @@ body {
 }
 
 .header-content-paragraph {
-    width: 75%;
+    width: 100%;
 }
 
 .header-content-button {
@@ -176,6 +176,7 @@ body {
 
     #nav-title {
         font-size: 30px;
+        flex-grow: .1;
     }
 
     .dropdown-icon {
@@ -184,40 +185,109 @@ body {
         padding: 0 0 0 0;
     }
 
-    #header {
-        display: block;
-        flex-direction: column;
+}
 
-    }
+/* 
+#header {
+    display: block;
+    flex-direction: column;
 
-    .header-content-paragraph {
-        width: 250px;
-    }
+}
 
-    .header-content-button {
-        margin: 0 0 10px 0;
-    }
+.header-content-paragraph {
+    width: 250px;
+}
 
-    .header-content {
-        padding: 0 0 0 10px;
-    }
+.header-content-button {
+    margin: 0 0 10px 0;
+}
 
-    .header-image img {
-        width: 400px;
-        height: 350px;
+.header-content {
+    padding: 0 0 0 10px;
+}
 
+.header-image img {
+    width: 400px;
+    height: 350px;
+
+}
+
+.header-image {
+    padding: 0;
+}
+
+.dropdown-icon:hover .nav-bar {
+    display: block;
+
+} */
+@media screen and (max-width: 920px) {
+    .heading {
+        padding: 150px 0px 0px 40px;
     }
 
     .header-image {
-        padding: 0;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    #header {
+        flex-direction: column;
+        width: 100%;
     }
 
-    .dropdown-icon:hover .nav-bar {
-        display: block;
-
+    .heading {
+        width: 100%;
     }
 
+    .header-image {
+        width: 100%;
+        text-align: center;
+    }
 
+    .header-content-btns {
+        text-align: center;
+    }
 
+    .header-content-paragraph {
+        text-align: center;
+        width: 100%;
+    }
 
+    .header-content-paragraph p {
+        width: 490px;
+        margin: 10px auto;
+    }
+
+    .heading {
+        text-align: center;
+        padding: 100px 0 0 1px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header-content-paragraph p {
+        width: 100%;
+    }
+
+    .header-image img {
+        width: 317px;
+        height: 283px;
+    }
+
+    .header-image {
+        padding: 20px 0 0 0;
+    }
+
+    .dropdown-icon {
+        margin: 20px 15px 0 0;
+    }
+
+    #nav-title {
+        padding: 10px 0 0 10px;
+    }
+
+    .heading {
+        padding: 50px 0 0 1px;
+    }
 }
